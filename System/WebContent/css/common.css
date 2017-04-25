@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.row {
+    background-color: #e6ffde;
+}
+
+#courseName, #className, #teacherName, #instituteName, #term,
+#majorClass, #duty, #total, #actual, #late, #leaveEarly, #turnover,
+#guideTeacher, #guideTeacherDuty, #guideTeacherInstitute,
+#labTeacher, #labTeacherDuty, #labTeacherInstitute,
+#labScore, #studentScore, #guideScore {
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: solid;
+    background: none;
+}
+
+#score, #score1, #score2, #score3, #score4, #score5, #score6, #score7, #score8 {
+    border: none;
+}
+
+#submit, #reset {
+    margin: 50px 200px;
+}
