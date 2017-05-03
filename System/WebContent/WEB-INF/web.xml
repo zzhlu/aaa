@@ -5,24 +5,6 @@
     <welcome-file>login.jsp</welcome-file>
   </welcome-file-list>
   
-  <servlet>
-      <servlet-name>DisplayChart</servlet-name>
-      <servlet-class>org.jfree.chart.servlet.DisplayChart</servlet-class>
-  </servlet>
-  <servlet-mapping>
-      <servlet-name>DisplayChart</servlet-name>
-      <url-pattern>/DisplayChart</url-pattern>
-  </servlet-mapping>
-  
-  <servlet>
-      <servlet-name>PieChart1</servlet-name>
-      <servlet-class>servlet.PieChart1</servlet-class>
-  </servlet>
-  <servlet-mapping>
-      <servlet-name>PieChart1</servlet-name>
-      <url-pattern>/PieChart1</url-pattern>
-  </servlet-mapping>
-  
    <servlet>
      <servlet-name>LoginConfirm</servlet-name>
      <servlet-class>servlet.LoginConfirm</servlet-class>
@@ -91,6 +73,204 @@
    <servlet-mapping>
        <servlet-name>DeleteTeacher</servlet-name>
        <url-pattern>/DeleteTeacher</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>DisplayChart</servlet-name>
+      <servlet-class>org.jfree.chart.servlet.DisplayChart</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>DisplayChart</servlet-name>
+      <url-pattern>/DisplayChart</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>PieChart1</servlet-name>
+      <servlet-class>servlet.PieChart1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>PieChart1</servlet-name>
+      <url-pattern>/PieChart1</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>PieChart2</servlet-name>
+      <servlet-class>servlet.PieChart2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>PieChart2</servlet-name>
+      <url-pattern>/PieChart2</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>PieChart3</servlet-name>
+      <servlet-class>servlet.PieChart3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>PieChart3</servlet-name>
+      <url-pattern>/PieChart3</url-pattern>
+  </servlet-mapping>  
+  
+  <servlet>
+      <servlet-name>PieChart4</servlet-name>
+      <servlet-class>servlet.PieChart4</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>PieChart4</servlet-name>
+      <url-pattern>/PieChart4</url-pattern>
+  </servlet-mapping>  
+  
+  <servlet>
+      <servlet-name>PieChart5</servlet-name>
+      <servlet-class>servlet.PieChart5</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>PieChart5</servlet-name>
+      <url-pattern>/PieChart5</url-pattern>
+  </servlet-mapping>  
+  
+  <servlet>
+      <servlet-name>PieChart6</servlet-name>
+      <servlet-class>servlet.PieChart6</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>PieChart6</servlet-name>
+      <url-pattern>/PieChart6</url-pattern>
+  </servlet-mapping>  
+  
+  <servlet>
+      <servlet-name>CategoryChart1</servlet-name>
+      <servlet-class>servlet.CategoryChart1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>CategoryChart1</servlet-name>
+      <url-pattern>/CategoryChart1</url-pattern>
+  </servlet-mapping>  
+  
+  <servlet>
+      <servlet-name>CategoryChart2</servlet-name>
+      <servlet-class>servlet.CategoryChart2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>CategoryChart2</servlet-name>
+      <url-pattern>/CategoryChart2</url-pattern>
+  </servlet-mapping>  
+  
+  <servlet>
+      <servlet-name>PieChart7</servlet-name>
+      <servlet-class>servlet.PieChart7</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>PieChart7</servlet-name>
+      <url-pattern>/PieChart7</url-pattern>
+  </servlet-mapping>  
+  
+  <servlet>
+      <servlet-name>PieChart8</servlet-name>
+      <servlet-class>servlet.PieChart8</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>PieChart8</servlet-name>
+      <url-pattern>/PieChart8</url-pattern>
+  </servlet-mapping>  
+  
+  <servlet>
+      <servlet-name>PieChart9</servlet-name>
+      <servlet-class>servlet.PieChart9</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>PieChart9</servlet-name>
+      <url-pattern>/PieChart9</url-pattern>
+  </servlet-mapping>  
+  
+  <servlet>
+      <servlet-name>PieChart10</servlet-name>
+      <servlet-class>servlet.PieChart10</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>PieChart10</servlet-name>
+      <url-pattern>/PieChart10</url-pattern>
+  </servlet-mapping> 
+  
+  <servlet>
+      <servlet-name>PieChart11</servlet-name>
+      <servlet-class>servlet.PieChart11</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>PieChart11</servlet-name>
+      <url-pattern>/PieChart11</url-pattern>
+  </servlet-mapping>  
+  
+  <servlet>
+      <servlet-name>PieChart12</servlet-name>
+      <servlet-class>servlet.PieChart12</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>PieChart12</servlet-name>
+      <url-pattern>/PieChart12</url-pattern>
+  </servlet-mapping> 
+  
+  <servlet>
+      <servlet-name>CategoryChart3</servlet-name>
+      <servlet-class>servlet.CategoryChart3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>CategoryChart3</servlet-name>
+      <url-pattern>/CategoryChart3</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>PieChart13</servlet-name>
+      <servlet-class>servlet.PieChart13</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>PieChart13</servlet-name>
+      <url-pattern>/PieChart13</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>PieChart14</servlet-name>
+      <servlet-class>servlet.PieChart14</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>PieChart14</servlet-name>
+      <url-pattern>/PieChart14</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>PieChart15</servlet-name>
+      <servlet-class>servlet.PieChart15</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>PieChart15</servlet-name>
+      <url-pattern>/PieChart15</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>CategoryChart4</servlet-name>
+      <servlet-class>servlet.CategoryChart4</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>CategoryChart4</servlet-name>
+      <url-pattern>/CategoryChart4</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>CategoryChart5</servlet-name>
+      <servlet-class>servlet.CategoryChart5</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>CategoryChart5</servlet-name>
+      <url-pattern>/CategoryChart5</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>CategoryChart6</servlet-name>
+      <servlet-class>servlet.CategoryChart6</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>CategoryChart6</servlet-name>
+      <url-pattern>/CategoryChart6</url-pattern>
   </servlet-mapping>
   
 </web-app>

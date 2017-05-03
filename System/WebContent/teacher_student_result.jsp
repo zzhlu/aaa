@@ -5,8 +5,16 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>教师评学评价表统计分析结果</title>
+<link rel="stylesheet" href="./css/result.css">
 </head>
 <body>
-
+	<img src="CategoryChart1">
+	<img src="CategoryChart2">
+	<img src="PieChart7">
+	<img src="PieChart8">
+	<img src="PieChart9">
+	<img src="PieChart10">
+	<img src="PieChart11">
+	<img src="PieChart12">
 </body>
 </html>

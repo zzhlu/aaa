@@ -5,8 +5,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>教学督导听课记录表统计分析结果</title>
+<link rel="stylesheet" href="./css/result.css">
 </head>
 <body>
-
+	<img src="CategoryChart3">
+	<img src="PieChart13">
+	<img src="PieChart14">
+	<img src="PieChart15">
 </body>
 </html>

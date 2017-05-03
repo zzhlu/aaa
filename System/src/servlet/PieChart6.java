@@ -16,14 +16,14 @@ import org.jfree.data.general.DefaultPieDataset;
 
 import bean.SqlBean;
 
-public class PieChart1 extends HttpServlet {
+public class PieChart6 extends HttpServlet {
 	
 	private DefaultPieDataset pieDataset = null; 
 
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {  	
 		getDataSet();
 		
-		JFreeChart pie_chart = ChartFactory.createPieChart("物联网导论课程\n平均每周所花费的时间",pieDataset,true,true,false); 
+		JFreeChart pie_chart = ChartFactory.createPieChart("计算机组成原理课程\n老师的课堂讲授情况",pieDataset,true,true,false); 
 
 		try {         
             ChartUtilities.writeChartAsJPEG(response.getOutputStream(),1.0f,pie_chart,400,300,null);
@@ -39,10 +39,9 @@ public class PieChart1 extends HttpServlet {
 		   SqlBean db = new SqlBean(); 
 		   
 		   try {		   
-			   String sql="select '0-4h' as usertime,count(*) as usercount from student_research where question2>=0 and question2<=4 and courseName='物联网导论'" +
-					   "union select '4-8h' as usertime,count(*) as usercount from student_research where question2>4 and question2<=8 and courseName='物联网导论' " +
-					   "union select '8-12h' as usertime,count(*) as usercount from student_research where question2>8 and question2<=12 and courseName='物联网导论' " +
-					   "union select '12h以上' as usertime,count(*) as usercount from student_research where question2>12 and courseName='物联网导论'";			   
+			   String sql="select '满意' as teaching,count(*) as usercount from student_research where question9='yes' and courseName='计算机组成原理'" +
+					   "union select '基本满意' as teaching,count(*) as usercount from student_research where question9='basic' and courseName='计算机组成原理' " +
+					   "union select '不满意' as teaching,count(*) as usercount from student_research where question9='no' and courseName='计算机组成原理' ";			   
 			 
 			   ResultSet rs = db.executeQuery(sql);				      
 	           while(rs.next()) {   

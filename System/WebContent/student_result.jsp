@@ -6,9 +6,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>学生学情问卷、评教调查表统计分析结果</title>
-<link rel="stylesheet" href="./css/student_result.css">
+<link rel="stylesheet" href="./css/result.css">
 </head>
 <body>
 	<img src="PieChart1">
+	<img src="PieChart2">
+	<img src="PieChart3">
+	<img src="PieChart4">
+	<img src="PieChart5">
+	<img src="PieChart6">
 </body>
 </html>	
